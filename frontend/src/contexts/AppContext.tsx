@@ -36,6 +36,7 @@ export const AppContextProvider = ({children}: {children: React.ReactNode}) =>{
     );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useAppContext = () => {
     const context = useContext(AppContext);
 
